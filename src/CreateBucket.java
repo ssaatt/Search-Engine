@@ -1,4 +1,3 @@
-
 	import java.io.IOException;
 
 	import com.amazonaws.auth.AWSCredentials;
@@ -15,7 +14,7 @@
 		   	 
 		   	AmazonS3Client s3 = new AmazonS3Client(credentials);
 			
-	        String bucketName = "ngnprojectbucket";
+	        String bucketName = "projectbucket";
 			s3.createBucket(bucketName);
             System.out.println("A new S3 bucket named: [ "+ bucketName + " ] has been created successfully.");
 		}
