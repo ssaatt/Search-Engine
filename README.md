@@ -53,6 +53,8 @@ Designing a User Interface for the Search Engine.
 COnfigure the Linux server. 
 
 Deploy the project on AWS Elastic Beanstalk
+
+
 <br>
 <img src="https://s3.amazonaws.com/js4153/20.png">
 
