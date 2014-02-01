@@ -26,12 +26,12 @@ The two key pieces for Lucene to create an index are Documents and Fields. A Doc
 represents a searchable item in Lucene. It is the thing that you find when you search.  A Document is made 
 of some Fields, each Field has a name and a value.
 
-I will process page by page by referencing the previously created directory for Crawled Pages. For each page, first make the Document object, and then add three Fields, the pageID, the pageURL and the content to it. Once created the Document with those Fields, add it to the Lucene index writer and ask it to create our index. The created index directory is in the “InvertedIndexes” folder. From this point on we can search according to the indexed Fields for any of our Documents. 
+I will process page by page by referencing the previously created directory for Crawled Pages. For each page, first make the Document object, and then add three Fields, the pageID, the pageURL and the content to it. Once created the Document with those Fields, add it to the Lucene index writer and ask it to create our index. The created index directory is in the “InvertedIndexes” folder. From this point on we can search according to the indexed Fields for any of our Documents. <br>
 
 3)  PageRank
 
 Page Rank is an algorithm used by a search engine to rank websites in the search results. It is a way of measuring the importance of website pages. Google’ s PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more import websites are likely to receive more links from other websites.
-
+<br>
 4)  Searcher
 
 IndexReader class in Lucene is used to read the directory created in the indexer part. The name for the directory is “InvertedIndexes” in the code. 
@@ -40,7 +40,7 @@ The user first set a query, the query will be processed by the QueryParser in Lu
 
 In order to get the Title for each Page, wrote a class called TitleExtractor.java. This class  could get the Page Title for a given URL. Since this class has to connect to the net for each search result. However, the time for searching will be longer. 
 
-
+<br>
 5)  Web Server. 
 
 Create a bucket in AWS S3. 
@@ -52,3 +52,6 @@ Designing a User Interface for the Search Engine.
 COnfigure the Linux server. 
 
 Deploy the project on AWS Elastic Beanstalk
+<br>
+<img src="https://s3.amazonaws.com/js4153/20.png">
+<img src="https://s3.amazonaws.com/js4153/21.png">
