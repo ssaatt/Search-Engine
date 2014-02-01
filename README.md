@@ -27,10 +27,11 @@ represents a searchable item in Lucene. It is the thing that you find when you s
 of some Fields, each Field has a name and a value.
 
 I will process page by page by referencing the previously created directory for Crawled Pages. For each page, first make the Document object, and then add three Fields, the pageID, the pageURL and the content to it. Once created the Document with those Fields, add it to the Lucene index writer and ask it to create our index. The created index directory is in the “InvertedIndexes” folder. From this point on we can search according to the indexed Fields for any of our Documents. <br>
-
+<br>
 3)  PageRank
 
 Page Rank is an algorithm used by a search engine to rank websites in the search results. It is a way of measuring the importance of website pages. Google’ s PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more import websites are likely to receive more links from other websites.
+<br>
 <br>
 4)  Searcher
 
@@ -54,4 +55,7 @@ COnfigure the Linux server.
 Deploy the project on AWS Elastic Beanstalk
 <br>
 <img src="https://s3.amazonaws.com/js4153/20.png">
+
+<br>
+<br>
 <img src="https://s3.amazonaws.com/js4153/21.png">
