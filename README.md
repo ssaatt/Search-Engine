@@ -65,3 +65,4 @@ COnfigure the Linux server.
 
 Deploy the project on AWS Elastic Beanstalk
 
+
