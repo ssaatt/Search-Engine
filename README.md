@@ -1,6 +1,16 @@
 Search-Engine
 =============
 
+<br>
+<img src="https://s3.amazonaws.com/js4153/20.png">
+
+<br>
+<br>
+<img src="https://s3.amazonaws.com/js4153/21.png">
+<br>
+
+
+
 The project consists of the following components:
 
 1)  Web Crawler
