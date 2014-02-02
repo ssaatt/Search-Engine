@@ -9,8 +9,8 @@ Search-Engine
 <img src="https://s3.amazonaws.com/js4153/21.png">
 <br>
 
-
-
+<br>
+<br>
 The project consists of the following components:
 
 1)  Web Crawler
@@ -64,10 +64,3 @@ COnfigure the Linux server.
 
 Deploy the project on AWS Elastic Beanstalk
 
-
-<br>
-<img src="https://s3.amazonaws.com/js4153/20.png">
-
-<br>
-<br>
-<img src="https://s3.amazonaws.com/js4153/21.png">
